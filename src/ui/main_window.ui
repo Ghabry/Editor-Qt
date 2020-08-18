@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>802</width>
+    <width>1047</width>
     <height>580</height>
    </rect>
   </property>
@@ -14,7 +14,7 @@
    <string>EasyRPG Editor</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="Resources.qrc">
+   <iconset>
     <normaloff>:/icons/share/old_easyrpg.png</normaloff>:/icons/share/old_easyrpg.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
@@ -39,8 +39,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>802</width>
-     <height>21</height>
+     <width>1047</width>
+     <height>36</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuGame">
@@ -364,8 +364,8 @@
   </widget>
   <action name="action_Open_Project">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_open.png</normaloff>:/icons/share/old_open.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/project-open.svg</normaloff>:/icons/bright/project-open.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Open Project</string>
@@ -379,8 +379,8 @@
   </action>
   <action name="action_New_Project">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_new.png</normaloff>:/icons/share/old_new.png</iconset>
+    <iconset resource="../../resources/Resources.qrc">
+     <normaloff>:/app/easyrpg.png</normaloff>:/app/easyrpg.png</iconset>
    </property>
    <property name="text">
     <string>&amp;New Project</string>
@@ -394,8 +394,8 @@
   </action>
   <action name="action_Close_Project">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_close.png</normaloff>:/icons/share/old_close.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/project-close.svg</normaloff>:/icons/bright/project-close.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Close Project</string>
@@ -409,8 +409,8 @@
   </action>
   <action name="actionCreate_Game_Disk">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_create_game_disk.png</normaloff>:/icons/share/old_create_game_disk.png</iconset>
+    <iconset resource="../../resources/Resources.qrc">
+     <normaloff>:/app/easyrpg.png</normaloff>:/app/easyrpg.png</iconset>
    </property>
    <property name="text">
     <string>Create Game &amp;Disk</string>
@@ -421,7 +421,7 @@
   </action>
   <action name="action_Quit">
    <property name="icon">
-    <iconset resource="Resources.qrc">
+    <iconset>
      <normaloff>:/icons/share/old_quit.png</normaloff>:/icons/share/old_quit.png</iconset>
    </property>
    <property name="text">
@@ -433,8 +433,8 @@
   </action>
   <action name="action_Save_Map">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_save_all.png</normaloff>:/icons/share/old_save_all.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/map-save.svg</normaloff>:/icons/bright/map-save.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Save Map</string>
@@ -451,8 +451,8 @@
   </action>
   <action name="actionRevert_Map">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_revert.png</normaloff>:/icons/share/old_revert.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/map-revert.svg</normaloff>:/icons/bright/map-revert.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Revert Map</string>
@@ -472,8 +472,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_lower_layer.png</normaloff>:/icons/share/old_lower_layer.png</iconset>
+    <iconset resource="../../resources/Resources.qrc">
+     <normaloff>:/bright/layer-low</normaloff>:/bright/layer-low</iconset>
    </property>
    <property name="text">
     <string>&amp;Lower Layer</string>
@@ -490,8 +490,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_upper_layer.png</normaloff>:/icons/share/old_upper_layer.png</iconset>
+    <iconset resource="../../resources/Resources.qrc">
+     <normaloff>:/bright/layer-high</normaloff>:/bright/layer-high</iconset>
    </property>
    <property name="text">
     <string>&amp;Upper Layer</string>
@@ -508,8 +508,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_event_layer.png</normaloff>:/icons/share/old_event_layer.png</iconset>
+    <iconset resource="../../resources/Resources.qrc">
+     <normaloff>:/bright/layer-event</normaloff>:/bright/layer-event</iconset>
    </property>
    <property name="text">
     <string>&amp;Events</string>
@@ -523,8 +523,8 @@
   </action>
   <action name="actionScale_1_1">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_11_scale.png</normaloff>:/icons/share/old_11_scale.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/zoom-original.svg</normaloff>:/icons/bright/zoom-original.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Zoom 100%</string>
@@ -538,8 +538,8 @@
   </action>
   <action name="actionZoomIn">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_zoom.png</normaloff>:/icons/share/old_zoom.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/zoom-in.svg</normaloff>:/icons/bright/zoom-in.svg</iconset>
    </property>
    <property name="text">
     <string>Zoom &amp;In</string>
@@ -556,8 +556,8 @@
   </action>
   <action name="actionZoomOut">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_zoom.png</normaloff>:/icons/share/old_zoom.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/zoom-out.svg</normaloff>:/icons/bright/zoom-out.svg</iconset>
    </property>
    <property name="text">
     <string>Zoom &amp;Out</string>
@@ -574,8 +574,8 @@
   </action>
   <action name="actionData_Base">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_database.png</normaloff>:/icons/share/old_database.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/database.svg</normaloff>:/icons/bright/database.svg</iconset>
    </property>
    <property name="text">
     <string>Data Base</string>
@@ -589,8 +589,8 @@
   </action>
   <action name="actionResource_Manager">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_resources.png</normaloff>:/icons/share/old_resources.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/resources.svg</normaloff>:/icons/bright/resources.svg</iconset>
    </property>
    <property name="text">
     <string>Resource Manager</string>
@@ -601,8 +601,8 @@
   </action>
   <action name="actionJukebox">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_music.png</normaloff>:/icons/share/old_music.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/audio.svg</normaloff>:/icons/bright/audio.svg</iconset>
    </property>
    <property name="text">
     <string>Jukebox</string>
@@ -613,8 +613,8 @@
   </action>
   <action name="actionSearch">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_search.png</normaloff>:/icons/share/old_search.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/edit-find.svg</normaloff>:/icons/bright/edit-find.svg</iconset>
    </property>
    <property name="text">
     <string>Search</string>
@@ -625,8 +625,8 @@
   </action>
   <action name="action_Play_Test">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_playtest.png</normaloff>:/icons/share/old_playtest.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/play.svg</normaloff>:/icons/bright/play.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Play Test</string>
@@ -643,8 +643,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_fullscreen.png</normaloff>:/icons/share/old_fullscreen.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/fullscreen.svg</normaloff>:/icons/bright/fullscreen.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Full Screen</string>
@@ -658,8 +658,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_title.png</normaloff>:/icons/share/old_title.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/show-title.svg</normaloff>:/icons/bright/show-title.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Title Background</string>
@@ -670,8 +670,8 @@
   </action>
   <action name="actionContents">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_help.png</normaloff>:/icons/share/old_help.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/help-about.svg</normaloff>:/icons/bright/help-about.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Contents</string>
@@ -698,8 +698,8 @@
   </action>
   <action name="action_Script_Editor">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_script_editor.png</normaloff>:/icons/share/old_script_editor.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/code-context.svg</normaloff>:/icons/bright/code-context.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Script Editor</string>
@@ -716,8 +716,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_palette.png</normaloff>:/icons/share/old_palette.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/palette.svg</normaloff>:/icons/bright/palette.svg</iconset>
    </property>
    <property name="text">
     <string>Palette</string>
@@ -734,8 +734,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_map.png</normaloff>:/icons/share/old_map.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/view-list-tree.svg</normaloff>:/icons/bright/view-list-tree.svg</iconset>
    </property>
    <property name="text">
     <string>Map Tree</string>
@@ -746,8 +746,8 @@
   </action>
   <action name="actionUndo">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_revert.png</normaloff>:/icons/share/old_revert.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/edit-undo.svg</normaloff>:/icons/bright/edit-undo.svg</iconset>
    </property>
    <property name="text">
     <string>Undo</string>
@@ -764,8 +764,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_zoom.png</normaloff>:/icons/share/old_zoom.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/zoom.svg</normaloff>:/icons/bright/zoom.svg</iconset>
    </property>
    <property name="text">
     <string>Zoom</string>
@@ -782,8 +782,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_pen.png</normaloff>:/icons/share/old_pen.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/draw-pen.svg</normaloff>:/icons/bright/draw-pen.svg</iconset>
    </property>
    <property name="text">
     <string>Draw</string>
@@ -800,8 +800,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_rectangle.png</normaloff>:/icons/share/old_rectangle.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/draw-rectangle.svg</normaloff>:/icons/bright/draw-rectangle.svg</iconset>
    </property>
    <property name="text">
     <string>Rectangle</string>
@@ -818,8 +818,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_circle.png</normaloff>:/icons/share/old_circle.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/draw-circle.svg</normaloff>:/icons/bright/draw-circle.svg</iconset>
    </property>
    <property name="text">
     <string>Circle</string>
@@ -836,8 +836,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_fill.png</normaloff>:/icons/share/old_fill.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/fill-color.svg</normaloff>:/icons/bright/fill-color.svg</iconset>
    </property>
    <property name="text">
     <string>Fill</string>
@@ -851,7 +851,7 @@
   </action>
   <action name="actionImport_Project">
    <property name="icon">
-    <iconset resource="Resources.qrc">
+    <iconset>
      <normaloff>:/icons/share/old_import.png</normaloff>:/icons/share/old_import.png</iconset>
    </property>
    <property name="text">
@@ -860,7 +860,7 @@
   </action>
   <action name="actionRtp_Path">
    <property name="icon">
-    <iconset resource="Resources.qrc">
+    <iconset>
      <normaloff>:/icons/share/old_open.png</normaloff>:/icons/share/old_open.png</iconset>
    </property>
    <property name="text">
@@ -872,8 +872,8 @@
   </action>
   <action name="actionMap_Properties">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_edit.png</normaloff>:/icons/share/old_edit.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/map-properties.svg</normaloff>:/icons/bright/map-properties.svg</iconset>
    </property>
    <property name="text">
     <string>Map Properties</string>
@@ -884,8 +884,8 @@
   </action>
   <action name="actionNew_Map">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_new_map.png</normaloff>:/icons/share/old_new_map.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/map-new.svg</normaloff>:/icons/bright/map-new.svg</iconset>
    </property>
    <property name="text">
     <string>New Map</string>
@@ -896,8 +896,8 @@
   </action>
   <action name="actionCopy_Map">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_copy_map.png</normaloff>:/icons/share/old_copy_map.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/edit-copy.svg</normaloff>:/icons/bright/edit-copy.svg</iconset>
    </property>
    <property name="text">
     <string>Copy Map</string>
@@ -908,8 +908,8 @@
   </action>
   <action name="actionPaste_Map">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_paste_map.png</normaloff>:/icons/share/old_paste_map.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/edit-paste.svg</normaloff>:/icons/bright/edit-paste.svg</iconset>
    </property>
    <property name="text">
     <string>Paste Map</string>
@@ -920,8 +920,8 @@
   </action>
   <action name="actionDelete_Map">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/icons/share/old_delete_map.png</normaloff>:/icons/share/old_delete_map.png</iconset>
+    <iconset>
+     <normaloff>:/icons/bright/edit-delete.svg</normaloff>:/icons/bright/edit-delete.svg</iconset>
    </property>
    <property name="text">
     <string>Delete Map</string>
@@ -947,7 +947,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="Resources.qrc"/>
+  <include location="../../resources/Resources.qrc"/>
  </resources>
  <connections/>
 </ui>

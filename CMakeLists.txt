@@ -226,7 +226,6 @@ target_include_directories(${PROJECT_NAME} INTERFACE
 set_target_properties(${PROJECT_NAME} PROPERTIES
 	AUTOMOC ON
 	AUTOUIC ON
-	AUTORCC ON
 )
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -253,9 +252,9 @@ target_link_libraries(${PROJECT_NAME}
 # Executable
 # Windows: Only open console for Debug builds
 if(CMAKE_BUILD_TYPE MATCHES "Debug")
-	add_executable(${PROJECT_NAME}_exe "src/main.cpp")
+        add_executable(${PROJECT_NAME}_exe "src/main.cpp")
 else()
-	add_executable(${PROJECT_NAME}_exe WIN32 "src/main.cpp")
+        add_executable(${PROJECT_NAME}_exe WIN32 "src/main.cpp")
 endif()
 
 if(WIN32)
@@ -266,11 +265,16 @@ endif()
 
 target_link_libraries(${PROJECT_NAME}_exe ${PROJECT_NAME})
 
+# Qt Magic (Enable resource compiler for exe)
+set_target_properties(${PROJECT_NAME}_exe PROPERTIES
+        AUTORCC ON
+)
+
 # Add resources
-target_sources(${PROJECT_NAME}_exe PRIVATE "src/Resources.qrc")
+target_sources(${PROJECT_NAME}_exe PRIVATE "resources/Resources.qrc")
 
 if(WIN32)
-	target_sources(${PROJECT_NAME}_exe PRIVATE "src/Resources.rc")
+        target_sources(${PROJECT_NAME}_exe PRIVATE "src/Resources.rc")
 endif()
 
 # Installation

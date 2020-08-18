@@ -102,15 +102,25 @@ static void associateFileTypes(const QStringList &fileTypes)
 //! [0]
 #endif
 
-
-
-
 MainWindow::MainWindow(QWidget *parent) :
 	QMainWindow(parent),
 	ui(new Ui::MainWindow),
 	searchdialog(new SearchDialog(this))
 {
 	ui->setupUi(this);
+
+	ui->mainToolBar->actions()[7]->setIcon(QIcon(":/bright/layer-low"));
+	ui->mainToolBar->actions()[8]->setIcon(QIcon(":/bright/layer-low"));
+	ui->mainToolBar->actions()[9]->setIcon(QIcon(":/bright/layer-low"));
+/*
+	icon7.addFile(QString::fromUtf8(":/bright/layer-low"), QSize(), QIcon::Normal, QIcon::Off);
+
+	ui->mainToolBar->actions()[0]->setIcon(QIcon(FromSvgToPixmap(iconSize(), ":/bright/project-new")));
+	ui->mainToolBar->actions()[1]->setIcon(QIcon(FromSvgToPixmap(iconSize(), ":/bright/project-open")));
+	ui->mainToolBar->actions()[3]->setIcon(QIcon(FromSvgToPixmap(iconSize(), ":/bright/project-close")));
+	ui->mainToolBar->actions()[5]->setIcon(QIcon(FromSvgToPixmap(iconSize(), ":/bright/gamedisk-create")));
+*/
+
 	// Hide map ids
 	ui->treeMap->hideColumn(1);
 	// Created hardcoded toolbar for palette window.
