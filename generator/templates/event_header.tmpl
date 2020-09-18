@@ -1,0 +1,34 @@
+{% include "copyright.tmpl" %}
+#pragma once
+
+#include <QWidget>
+#include <lcf/rpg/fwd.h>
+//>10
+{{ user10 }}
+//<10
+
+namespace Ui {
+class {{ name }}Widget;
+}
+
+class {{ name }}Widget : public QWidget
+{
+	Q_OBJECT
+
+public:
+	{{ name }}Widget(lcf::rpg::Database& db, QWidget *parent = nullptr);
+	~{{ name }}Widget() override;
+
+	void setData(lcf::rpg::EventCommand* cmd);
+
+private slots:
+
+private:
+	Ui::{{ name }}Widget *ui;
+	lcf::rpg::Database& db;
+	lcf::rpg::EventCommand* cmd = nullptr;
+
+	//>20
+{{ user20 }}
+	//<20
+};

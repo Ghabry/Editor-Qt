@@ -1,0 +1,56 @@
+{% include "copyright.tmpl" %}
+
+#include "{{ filename }}.h"
+#include "ui_{{ filename }}.h"
+#include "common/lcf_widget_binding.h"
+#include <lcf/dbarray.h>
+
+//>10
+{{ user10 }}
+//<10
+
+{{ name }}Widget::{{ name }}Widget(lcf::rpg::Database& db, QWidget *parent) :
+	QWidget(parent),
+	ui(new Ui::{{ name }}Widget),
+	db(db)
+{
+	ui->setupUi(this);
+
+{%- if string %}
+	LcfWidgetBinding::connect(this, ui->string);
+{%- endif -%}
+{%- for arg in args -%}
+	LcfWidgetBinding::connect<int32_t>(this, ui->arg{{ arg.index }});
+{%- endfor %}
+
+	//>20
+{{ user20 }}
+	//<20
+}
+
+{{ name }}Widget::~{{ name }}Widget()
+{
+	delete ui;
+}
+
+void {{ name }}Widget::setData(lcf::rpg::EventCommand* cmd) {
+	assert(cmd);
+	this->cmd = cmd;
+	auto& args = cmd->parameters;
+	if (args.size() < {{ args|length }}) {
+		lcf::DBArray<int32_t> a = args;
+		args = lcf::DBArray<int32_t>({{ args|length }});
+		std::copy(a.begin(), a.end(), args.begin());
+	}
+
+{%- if string %}
+	LcfWidgetBinding::bind(ui->string, cmd->string);
+{%- endif -%}
+{%- for arg in args %}
+	LcfWidgetBinding::bind(ui->arg{{ arg.index }}, args[{{ arg.index }}]);
+{%- endfor %}
+}
+
+//>30
+{{ user30 }}
+//<30

@@ -1,0 +1,601 @@
+[
+{
+	"code": 10,
+	"name": "End"
+},
+{
+	"code": 1005,
+	"name": "CallCommonEvent"
+},
+{
+	"code": 1006,
+	"name": "ForceFlee"
+},
+{
+	"code": 1007,
+	"name": "EnableCombo"
+},
+{
+	"code": 1008,
+	"name": "ChangeClass"
+},
+{
+	"code": 1009,
+	"name": "ChangeBattleCommands"
+},
+{
+	"code": 5001,
+	"name": "OpenLoadMenu"
+},
+{
+	"code": 5002,
+	"name": "ExitGame"
+},
+{
+	"code": 5003,
+	"name": "ToggleAtbMode"
+},
+{
+	"code": 5004,
+	"name": "ToggleFullscreen"
+},
+{
+	"code": 5005,
+	"name": "OpenVideoOptions"
+},
+{
+	"code": 10110,
+	"name": "ShowMessage"
+},
+{
+	"code": 10120,
+	"name": "MessageOptions"
+},
+{
+	"code": 10130,
+	"name": "ChangeFaceGraphic"
+},
+{
+	"code": 10140,
+	"name": "ShowChoice"
+},
+{
+	"code": 10150,
+	"name": "InputNumber"
+},
+{
+	"code": 10210,
+	"name": "ControlSwitches"
+},
+{
+	"code": 10220,
+	"name": "ControlVars"
+},
+{
+	"code": 10230,
+	"name": "TimerOperation"
+},
+{
+	"code": 10310,
+	"name": "ChangeGold"
+},
+{
+	"code": 10320,
+	"name": "ChangeItems"
+},
+{
+	"code": 10330,
+	"name": "ChangePartyMembers"
+},
+{
+	"code": 10410,
+	"name": "ChangeExp"
+},
+{
+	"code": 10420,
+	"name": "ChangeLevel"
+},
+{
+	"code": 10430,
+	"name": "ChangeParameters"
+},
+{
+	"code": 10440,
+	"name": "ChangeSkills"
+},
+{
+	"code": 10450,
+	"name": "ChangeEquipment"
+},
+{
+	"code": 10460,
+	"name": "ChangeHp"
+},
+{
+	"code": 10470,
+	"name": "ChangeSp"
+},
+{
+	"code": 10480,
+	"name": "ChangeCondition"
+},
+{
+	"code": 10490,
+	"name": "FullHeal"
+},
+{
+	"code": 10500,
+	"name": "SimulatedAttack"
+},
+{
+	"code": 10610,
+	"name": "ChangeHeroName"
+},
+{
+	"code": 10620,
+	"name": "ChangeHeroTitle"
+},
+{
+	"code": 10630,
+	"name": "ChangeSpriteAssociation"
+},
+{
+	"code": 10640,
+	"name": "ChangeActorFace"
+},
+{
+	"code": 10650,
+	"name": "ChangeVehicleGraphic"
+},
+{
+	"code": 10660,
+	"name": "ChangeSystemBgm"
+},
+{
+	"code": 10670,
+	"name": "ChangeSystemSfx"
+},
+{
+	"code": 10680,
+	"name": "ChangeSystemGraphics"
+},
+{
+	"code": 10690,
+	"name": "ChangeScreenTransitions"
+},
+{
+	"code": 10710,
+	"name": "EnemyEncounter"
+},
+{
+	"code": 10720,
+	"name": "OpenShop"
+},
+{
+	"code": 10730,
+	"name": "ShowInn"
+},
+{
+	"code": 10740,
+	"name": "EnterHeroName"
+},
+{
+	"code": 10810,
+	"name": "Teleport"
+},
+{
+	"code": 10820,
+	"name": "MemorizeLocation"
+},
+{
+	"code": 10830,
+	"name": "RecallToLocation"
+},
+{
+	"code": 10840,
+	"name": "EnterExitVehicle"
+},
+{
+	"code": 10850,
+	"name": "SetVehicleLocation"
+},
+{
+	"code": 10860,
+	"name": "ChangeEventLocation"
+},
+{
+	"code": 10870,
+	"name": "TradeEventLocations"
+},
+{
+	"code": 10910,
+	"name": "StoreTerrainId"
+},
+{
+	"code": 10920,
+	"name": "StoreEventId"
+},
+{
+	"code": 11010,
+	"name": "EraseScreen"
+},
+{
+	"code": 11020,
+	"name": "ShowScreen"
+},
+{
+	"code": 11030,
+	"name": "TintScreen"
+},
+{
+	"code": 11040,
+	"name": "FlashScreen"
+},
+{
+	"code": 11050,
+	"name": "ShakeScreen"
+},
+{
+	"code": 11060,
+	"name": "PanScreen"
+},
+{
+	"code": 11070,
+	"name": "WeatherEffects"
+},
+{
+	"code": 11110,
+	"name": "ShowPicture"
+},
+{
+	"code": 11120,
+	"name": "MovePicture"
+},
+{
+	"code": 11130,
+	"name": "ErasePicture"
+},
+{
+	"code": 11210,
+	"name": "ShowBattleAnimation"
+},
+{
+	"code": 11310,
+	"name": "SpriteTransparency"
+},
+{
+	"code": 11320,
+	"name": "FlashSprite"
+},
+{
+	"code": 11330,
+	"name": "MoveEvent"
+},
+{
+	"code": 11340,
+	"name": "ProceedWithMovement"
+},
+{
+	"code": 11350,
+	"name": "HaltAllMovement"
+},
+{
+	"code": 11410,
+	"name": "Wait"
+},
+{
+	"code": 11510,
+	"name": "PlayBgm"
+},
+{
+	"code": 11520,
+	"name": "FadeOutBgm"
+},
+{
+	"code": 11530,
+	"name": "MemorizeBgm"
+},
+{
+	"code": 11540,
+	"name": "PlayMemorizedBgm"
+},
+{
+	"code": 11550,
+	"name": "PlaySound"
+},
+{
+	"code": 11560,
+	"name": "PlayMovie"
+},
+{
+	"code": 11610,
+	"name": "KeyInputProc"
+},
+{
+	"code": 11710,
+	"name": "ChangeMapTileset"
+},
+{
+	"code": 11720,
+	"name": "ChangePBg"
+},
+{
+	"code": 11740,
+	"name": "ChangeEncounterRate"
+},
+{
+	"code": 11750,
+	"name": "TileSubstitution"
+},
+{
+	"code": 11810,
+	"name": "TeleportTargets"
+},
+{
+	"code": 11820,
+	"name": "ChangeTeleportAccess"
+},
+{
+	"code": 11830,
+	"name": "EscapeTarget"
+},
+{
+	"code": 11840,
+	"name": "ChangeEscapeAccess"
+},
+{
+	"code": 11910,
+	"name": "OpenSaveMenu"
+},
+{
+	"code": 11930,
+	"name": "ChangeSaveAccess"
+},
+{
+	"code": 11950,
+	"name": "OpenMainMenu"
+},
+{
+	"code": 11960,
+	"name": "ChangeMainMenuAccess"
+},
+{
+	"code": 12010,
+	"name": "ConditionalBranch"
+},
+{
+	"code": 12110,
+	"name": "Label",
+	"label": "Label",
+	"string": {
+		"label": "Stringarg"
+	},
+	"args":
+	[
+	{
+		"label": "Label",
+		"type": "number"
+	}
+	]
+},
+{
+	"code": 12120,
+	"name": "JumpToLabel"
+},
+{
+	"code": 12210,
+	"name": "Loop"
+},
+{
+	"code": 12220,
+	"name": "BreakLoop"
+},
+{
+	"code": 12310,
+	"name": "EndEventProcessing"
+},
+{
+	"code": 12320,
+	"name": "EraseEvent"
+},
+{
+	"code": 12330,
+	"name": "CallEvent"
+},
+{
+	"code": 12410,
+	"name": "Comment"
+},
+{
+	"code": 12420,
+	"name": "GameOver"
+},
+{
+	"code": 12510,
+	"name": "ReturntoTitleScreen"
+},
+{
+	"code": 13110,
+	"name": "ChangeMonsterHP"
+},
+{
+	"code": 13120,
+	"name": "ChangeMonsterMP"
+},
+{
+	"code": 13130,
+	"name": "ChangeMonsterCondition"
+},
+{
+	"code": 13150,
+	"name": "ShowHiddenMonster"
+},
+{
+	"code": 13210,
+	"name": "ChangeBattleBg"
+},
+{
+	"code": 13260,
+	"name": "ShowBattleAnimationB"
+},
+{
+	"code": 13310,
+	"name": "ConditionalBranchB"
+},
+{
+	"code": 13410,
+	"name": "TerminateBattle"
+},
+{
+	"code": 20110,
+	"name": "ShowMessage2"
+},
+{
+	"code": 20140,
+	"name": "ShowChoiceOption"
+},
+{
+	"code": 20141,
+	"name": "ShowChoiceEnd"
+},
+{
+	"code": 20710,
+	"name": "VictoryHandler"
+},
+{
+	"code": 20711,
+	"name": "EscapeHandler"
+},
+{
+	"code": 20712,
+	"name": "DefeatHandler"
+},
+{
+	"code": 20713,
+	"name": "EndBattle"
+},
+{
+	"code": 20720,
+	"name": "Transaction"
+},
+{
+	"code": 20721,
+	"name": "NoTransaction"
+},
+{
+	"code": 20722,
+	"name": "EndShop"
+},
+{
+	"code": 20730,
+	"name": "Stay"
+},
+{
+	"code": 20731,
+	"name": "NoStay"
+},
+{
+	"code": 20732,
+	"name": "EndInn"
+},
+{
+	"code": 22010,
+	"name": "ElseBranch"
+},
+{
+	"code": 22011,
+	"name": "EndBranch"
+},
+{
+	"code": 22210,
+	"name": "EndLoop"
+},
+{
+	"code": 22410,
+	"name": "Comment2"
+},
+{
+	"code": 23310,
+	"name": "ElseBranchB"
+},
+{
+	"code": 23311,
+	"name": "EndBranchB"
+},
+{
+	"code": 3001,
+	"name": "Maniac_GetSaveInfo"
+},
+{
+	"code": 3002,
+	"name": "Maniac_Save"
+},
+{
+	"code": 3003,
+	"name": "Maniac_Load"
+},
+{
+	"code": 3004,
+	"name": "ManiacEndLoadProcess"
+},
+{
+	"code": 3005,
+	"name": "ManiacGetMousePosition"
+},
+{
+	"code": 3006,
+	"name": "ManiacSetMousePosition"
+},
+{
+	"code": 3007,
+	"name": "ManiacShowStringPicture"
+},
+{
+	"code": 3008,
+	"name": "ManiacGetPictureInfo"
+},
+{
+	"code": 3009,
+	"name": "ManiacControlBattle"
+},
+{
+	"code": 3010,
+	"name": "ManiacControlAtbGauge"
+},
+{
+	"code": 3011,
+	"name": "ManiacChangeBattleCommandEx"
+},
+{
+	"code": 3012,
+	"name": "ManiacGetBattleInfo"
+},
+{
+	"code": 3013,
+	"name": "ManiacControlVarArray"
+},
+{
+	"code": 3014,
+	"name": "ManiacKeyInputProcEx"
+},
+{
+	"code": 3015,
+	"name": "ManiacRewriteMap"
+},
+{
+	"code": 3016,
+	"name": "ManiacControlGlobalSave"
+},
+{
+	"code": 3017,
+	"name": "ManiacChangePictureId"
+},
+{
+	"code": 3018,
+	"name": "ManiacSetGameOption"
+},
+{
+	"code": 3019,
+	"name": "ManiacCallCommand"
+}
+]
